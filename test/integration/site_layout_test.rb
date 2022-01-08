@@ -8,7 +8,6 @@ class SteLayoutTest < ActionDispatch::IntegrationTest
     assert_select "a[href=?]", help_path
     assert_select "a[href=?]", about_path
     #assert_select "a[href=?]", contact_path
-    assert_select "test", full_title("Contact")
   end
   # test "the truth" do
   #   assert true
